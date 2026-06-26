@@ -1370,6 +1370,115 @@ main {
             }
         }
 
+        /*==================#2-10 USEFUL RESOURCES STYLE ==================*/
 
+        &:nth-of-type(10) {
+            max-width: 1280px;
+            justify-content: space-between;
+            border-bottom: 2px solid var(--brown);
+            padding-bottom: 40px;
+
+            >figure {
+                height: 90px;
+                display: flex;
+                column-gap: 30px;
+
+                >img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    transition: 0.4s;
+
+                    &:first-of-type {
+                        &:hover {
+                            transform: rotate(10deg);
+                        }
+                    }
+
+                    &:nth-of-type(2) {
+                        &:hover {
+                            transform: translateY(5px);
+                        }
+                    }
+
+                    &:last-of-type {
+                        &:hover {
+                            transform: rotate(-10deg);
+                        }
+                    }
+                }
+            }
+
+            >h2 {
+                width: 50%;
+                font-size: 44px;
+                color: var(--black);
+                text-transform: capitalize;
+                text-align: right;
+            }
+        }
+
+        /*==================#2-11 LAST STYLE ==================*/
+        &:nth-of-type(11) {
+            justify-content: center;
+            column-gap: 40px;
+
+            >div {
+                width: 31.25%;
+                max-width: 400px;
+                height: 565px;
+                border: 1px solid var(--brown);
+                padding: 25px;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: start;
+                align-content: start;
+                row-gap: 40px;
+
+                >* {
+                    text-transform: capitalize;
+                }
+
+                >a {
+
+                    &:first-of-type {
+                        width: 350px;
+                        height: 300px;
+
+                        >img {
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+                        }
+                    }
+
+                    &:last-of-type {
+                        color: var(--orange);
+                        font-size: 18px;
+                        padding: 15px 30px;
+                        border: 1px solid var(--cream);
+                        border-right: 5px solid var(--cream);
+                        border-bottom: 5px solid var(--cream);
+                        transition: 0.4s;
+
+                        &:hover {
+                            background-color: var(--cream);
+                            color: var(--black);
+                            border: 1px solid var(--orange);
+                            border-right: 5px solid var(--orange);
+                            border-bottom: 5px solid var(--orange);
+                        }
+                    }
+                }
+
+                >p {
+                    width: 100%;
+                    font-size: 26px;
+                    color: var(--black);
+                    font-weight: bold;
+                    padding: 0 10px;
+                }
+            }
+        }
     }
 }
