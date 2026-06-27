@@ -21,7 +21,6 @@ header {
     }
 
     >section {
-
         flex-wrap: wrap;
         justify-content: center;
         align-content: start;
@@ -85,15 +84,12 @@ header {
                                     >svg {
                                         height: 18px;
                                     }
-
                                 }
 
                                 &:last-of-type {
                                     font-size: 18px;
                                     text-transform: capitalize;
                                     width: 100%;
-
-
                                 }
                             }
                         }
@@ -124,7 +120,6 @@ header {
                     object-fit: cover;
                 }
             }
-
         }
 
         /*==================#1-3 HERO STYLE ==================*/
@@ -135,8 +130,6 @@ header {
             justify-content: space-between;
             max-width: 1280px;
             margin-bottom: 50px;
-
-
 
             /* left */
             >div {
@@ -184,11 +177,6 @@ header {
                         width: 35px;
                     }
                 }
-
-
-
-
-
             }
 
 
@@ -205,36 +193,7 @@ header {
                     border-radius: 50% 50% 0 0;
                 }
             }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         }
-
-
     }
 
     &::after {
@@ -245,7 +204,6 @@ header {
         bottom: 0;
         left: 0;
         background-image: url(../Images/bg-lines-3.png);
-
     }
 
     /*==================#1-2 MENU STYLE ==================*/
@@ -268,7 +226,6 @@ header {
                 font-size: 16px;
                 padding: 30px 0;
                 border-top: 2px solid transparent;
-
 
                 &:first-of-type {
                     position: relative;
@@ -312,8 +269,6 @@ header {
                             }
                         }
                     }
-
-
                 }
 
                 &:nth-of-type(3) {
@@ -385,29 +340,8 @@ header {
                                         }
                                     }
                                 }
-
                             }
                         }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                     }
                 }
 
@@ -424,18 +358,9 @@ header {
                                     background-color: var(--orange);
                                 }
                             }
-
                         }
                     }
-
                 }
-
-
-
-
-
-
-
 
                 &:hover {
                     border-top: 2px solid var(--brown);
@@ -552,7 +477,6 @@ main {
                         &:first-of-type {
 
                             >span {
-
                                 font-size: 56px;
                                 color: var(--black);
                             }
@@ -579,9 +503,6 @@ main {
                 justify-content: start;
                 align-content: start;
 
-
-                >figure {}
-
                 >h5 {
                     width: 100%;
                     font-size: 26px;
@@ -594,8 +515,6 @@ main {
                     font-size: 18px;
                     line-height: 1.5;
                     color: rgba(0, 0, 0, 0.651);
-
-                    &:first-of-type {}
 
                     &:last-of-type {
                         margin-top: 30px;
@@ -647,7 +566,6 @@ main {
                     position: relative;
 
                     >img {
-
                         border-radius: 0 100px 0 0;
                     }
 
@@ -664,7 +582,6 @@ main {
                         transition: 1s;
                         z-index: 2;
                     }
-
                 }
 
                 &:nth-of-type(2) {
@@ -674,7 +591,6 @@ main {
                     position: relative;
 
                     >img {
-
                         border-radius: 0 0 0 100px;
                     }
 
@@ -700,7 +616,6 @@ main {
                     position: relative;
 
                     >img {
-
                         border-radius: 100px 0 0 0;
                     }
 
@@ -726,7 +641,6 @@ main {
                     position: relative;
 
                     >img {
-
                         border-radius: 0 0 100px 0;
                     }
 
@@ -767,7 +681,6 @@ main {
             position: relative;
             z-index: 2;
             justify-content: center;
-
 
             >div {
 
@@ -823,11 +736,8 @@ main {
                         border-bottom: 5px solid var(--white);
                         border-right: 5px solid var(--white);
                     }
-
                 }
             }
-
-
 
             &::before {
                 content: "";
@@ -835,13 +745,11 @@ main {
                 height: 100%;
                 position: absolute;
                 top: 0;
-
                 left: 0;
                 opacity: 0.5;
                 background-image: url(../Images/overlay.png);
                 opacity: 0.2;
                 z-index: -1;
-
             }
         }
 
@@ -860,7 +768,6 @@ main {
                 align-items: start;
                 justify-content: center;
                 gap: 80px 60px;
-
 
                 >figure {
                     width: 610px;
@@ -886,11 +793,9 @@ main {
                         &:hover {
                             transform: translateY(+10px);
                         }
-
                     }
 
                     >figcaption {
-
                         width: 100%;
                         display: flex;
                         flex-wrap: wrap;
@@ -944,11 +849,7 @@ main {
                                 }
                             }
                         }
-
-
                     }
-
-
                 }
             }
 
@@ -1152,11 +1053,7 @@ main {
                                 opacity: 1;
                             }
                         }
-
-
                     }
-
-
                 }
             }
         }
@@ -1230,13 +1127,11 @@ main {
         /*==================#2-9 CUSTOMERS STYLE ==================*/
         &:nth-of-type(9) {
             min-height: 800px;
-
             background-image: url(../Images/bg-lines-3.png);
             background-color: var(--cream);
             justify-content: center;
             align-items: center;
             padding: 120px 0;
-
 
             >div {
                 width: 100%;
@@ -1267,7 +1162,6 @@ main {
                             z-index: 2;
 
                             >img {
-
                                 &:first-of-type {
                                     height: 250px;
                                     width: 250px;
@@ -1278,8 +1172,6 @@ main {
                                     &:hover {
                                         transform: rotate(-20deg);
                                     }
-
-
                                 }
 
                                 &:last-of-type {
@@ -1322,8 +1214,6 @@ main {
                                 }
                             }
                         }
-
-
                     }
 
                     &:last-of-type {
@@ -1339,12 +1229,10 @@ main {
                         }
 
                         >img {
-
                             &:first-of-type {
                                 width: 87px;
                                 height: 75px;
                                 object-fit: cover;
-
                             }
 
                             &:last-of-type {
@@ -1352,7 +1240,6 @@ main {
                                 height: 80px;
                                 object-fit: cover;
                             }
-
                         }
 
                         >p {
@@ -1364,7 +1251,6 @@ main {
                             width: 100%;
                             font-size: 16px;
                         }
-
                     }
                 }
             }
@@ -1440,7 +1326,6 @@ main {
                 }
 
                 >a {
-
                     &:first-of-type {
                         width: 350px;
                         height: 300px;
@@ -1477,6 +1362,321 @@ main {
                     color: var(--black);
                     font-weight: bold;
                     padding: 0 10px;
+                }
+            }
+        }
+    }
+}
+
+/*==================#3 FOOTER STYLE ==================*/
+/*===================================================*/
+footer {
+    justify-content: center;
+
+    >section {
+        max-width: 1280px;
+
+        /*==================#3-1 WEB FOOTER STYLE ==================*/
+        &:first-of-type {
+            height: 185px;
+            justify-content: space-between;
+
+            >ul {
+                display: flex;
+                flex-wrap: wrap;
+                align-content: center;
+                row-gap: 10px;
+                color: var(--black);
+                font-size: 18px;
+
+                >li {
+                    width: 100%;
+                }
+
+                &:first-of-type {
+                    width: 39.065%;
+                    max-width: 500px;
+                }
+
+                &:last-of-type {
+                    width: 39.6%;
+                    max-width: 507px;
+                    text-align: end;
+                }
+            }
+
+            >figure {
+                width: 21%;
+                max-width: 268px;
+                height: 90px;
+
+                >img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: contain;
+                }
+            }
+        }
+
+        /*==================#3-2 AUTHOR SECTION STYLE ==================*/
+        &:last-of-type {
+            min-height: 600px;
+            align-items: center;
+            justify-content: center;
+
+            /* parent */
+            >div {
+
+                width: 800px;
+                height: 400px;
+                background-color: #fcf7ee;
+                position: relative;
+
+                >p {
+                    width: 100%;
+                    text-align: center;
+                    font-size: 22px;
+                    color: #4a4d4a;
+                    text-transform: uppercase;
+                    margin-top: 20px;
+                    opacity: 1;
+                    transition: opacity 0.4s ease 0.5s;
+                }
+
+                >div {
+
+                    /* handle */
+                    &:first-of-type {
+                        width: 70px;
+                        height: 100%;
+                        position: absolute;
+                        bottom: 2px;
+                        right: 25px;
+                        transition: 1s;
+                        transform-origin: bottom;
+
+                        >div {
+                            position: relative;
+                            width: 10px;
+                            height: 130px;
+
+                            /* stick */
+                            &:first-of-type {
+                                background-color: burlywood;
+                                border-radius: 4px 4px 0 0;
+                                position: absolute;
+                                bottom: 0;
+                                right: 55px;
+                            }
+
+                            /* circle */
+                            &:nth-of-type(2) {
+                                width: 50px;
+                                height: 50px;
+                                border-radius: 50%;
+                                background-color: red;
+                                position: absolute;
+                                bottom: 125px;
+                                right: 35px;
+                                z-index: 2;
+                            }
+                        }
+                    }
+
+                    /* poratl 1 */
+                    &:nth-of-type(2) {
+                        width: 1px;
+                        height: 1px;
+                        border-radius: 50%;
+                        background-color: #e75538ab;
+                        position: absolute;
+                        bottom: 0;
+                        left: 30%;
+                        transition: width 0.8s ease 1.6s,
+                            height 0.8s ease 1.6s,
+                            left 0.8s ease 1.6s;
+                    }
+
+                    /* poratl 2 */
+                    &:nth-of-type(3) {
+                        width: 1px;
+                        height: 1px;
+                        border-radius: 50%;
+                        position: absolute;
+                        left: 0;
+                        bottom: 50%;
+                        background-color: #e75538ab;
+                        transition: width 0.8s ease 1s,
+                            height 0.8s ease 1s,
+                            bottom 0.8s ease 1s;
+                    }
+
+                    /* base */
+                    &:nth-of-type(4) {
+                        width: 90px;
+                        height: 40px;
+                        background-color: gray;
+                        border-radius: 10px 10px 0 0;
+                        position: absolute;
+                        right: 10px;
+                        bottom: 0;
+                        z-index: 5;
+                    }
+
+                    /* picture */
+                    &:nth-of-type(5) {
+                        >figure {
+                            display: flex;
+                            flex-wrap: wrap;
+                            justify-content: center;
+                            align-items: center;
+                            width: 200px;
+                            position: absolute;
+                            left: -200px;
+                            top: 80px;
+                            opacity: 0;
+                            visibility: hidden;
+                            transition: left 0.8s ease 1.3s,
+                                opacity 0.8s ease 1.3s,
+                                visibility 0.8s ease 1.3s;
+
+                            >img {
+                                width: 90%;
+                                height: 90%;
+                                object-fit: cover;
+                                border-radius: 50%;
+                            }
+
+                            >figcaption {
+                                margin-top: 20px;
+
+                                >* {
+                                    width: 100%;
+                                    text-align: center;
+                                }
+
+                                >h4 {
+                                    font-size: 22px;
+                                    margin-bottom: 5px;
+                                }
+
+                                >p {
+                                    font-size: 14px;
+                                    color: rgba(0, 0, 0, 0.6);
+                                }
+                            }
+                        }
+                    }
+
+                    /* socials */
+                    &:last-of-type {
+                        >ul {
+
+                            >li {
+                                position: absolute;
+                                bottom: -100px;
+                                left: 47.5%;
+                                opacity: 0;
+                                visibility: hidden;
+
+                                &:first-of-type {
+                                    transition: bottom 0.8s ease 1.9s,
+                                        opacity 0.8s ease 1.9s,
+                                        visibility 0.8s ease 1.9s;
+                                }
+
+                                &:nth-of-type(2) {
+                                    transition: bottom 0.8s ease 2.1s,
+                                        opacity 0.8s ease 2.1s,
+                                        visibility 0.8s ease 2.1s;
+                                }
+
+                                &:nth-of-type(3) {
+                                    transition: bottom 0.8s ease 2.3s,
+                                        opacity 0.8s ease 2.3s,
+                                        visibility 0.8s ease 2.3s;
+                                }
+
+                                &:last-of-type {
+                                    transition: bottom 0.8s ease 2.5s,
+                                        opacity 0.8s ease 2.5s,
+                                        visibility 0.8s ease 2.5s;
+                                }
+
+                                >a {
+                                    height: 30px;
+                                    width: 30px;
+                                    display: flex;
+                                    justify-content: start;
+
+                                    >img {
+                                        width: 100%;
+                                        height: 100%;
+                                        object-fit: cover;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+
+                /* SUPER HOVER */
+                &:hover {
+                    >p {
+                        opacity: 0;
+                    }
+
+                    >div {
+                        &:first-of-type {
+                            transform: rotate(15deg);
+                        }
+
+                        &:nth-of-type(2) {
+                            width: 300px;
+                            height: 10px;
+                            left: 30%;
+                        }
+
+                        &:nth-of-type(3) {
+                            width: 10px;
+                            height: 300px;
+                            bottom: 12%;
+                        }
+
+                        &:nth-of-type(5) {
+                            >figure {
+                                left: 50px;
+                                opacity: 1;
+                                visibility: visible;
+                            }
+                        }
+
+                        &:last-of-type {
+                            >ul {
+                                >li {
+                                    opacity: 1;
+                                    visibility: visible;
+
+                                    &:first-of-type {
+                                        bottom: 68%;
+                                    }
+
+                                    &:nth-of-type(2) {
+                                        bottom: 55%;
+                                    }
+
+                                    &:nth-of-type(3) {
+                                        bottom: 42%;
+                                    }
+
+                                    &:last-of-type {
+                                        bottom: 29%;
+                                    }
+                                }
+                            }
+                        }
+                    }
                 }
             }
         }
