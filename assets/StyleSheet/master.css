@@ -175,6 +175,12 @@ header {
 
                     >img {
                         width: 35px;
+                        transition: 1s;
+
+                        &:hover {
+                            transform: rotate(200deg);
+
+                        }
                     }
                 }
             }
@@ -859,6 +865,7 @@ main {
                 object-fit: cover;
                 position: absolute;
                 top: 98%;
+                transition: 5s;
 
                 &:first-of-type {
                     left: 20%;
@@ -866,6 +873,10 @@ main {
 
                 &:last-of-type {
                     right: 20%;
+                }
+
+                &:hover {
+                    transform: rotate(-200deg);
                 }
             }
 
@@ -1080,6 +1091,12 @@ main {
                     width: 35px;
                     height: 35px;
                     object-fit: cover;
+                    transition: 1s;
+
+                    &:hover {
+                        transform: rotate(200deg);
+
+                    }
                 }
 
                 >a {
